@@ -1,10 +1,10 @@
 module traffic_light(input clk,input reset_n,input color,output action);
     reg [2:0] action;
-    wire [2:0] color;
+    wire [1:0] color;
     reg [2:0] state,next_State;
-    parameter red=3'b000,
-              green=3'b001,
-              yellow=3'b010;
+    parameter red=2'b00,
+              green=2'b01,
+              yellow=2'b10;
     always@(posedge clk or negedge reset_n)begin
         if(!reset_n)
         state<=red;
@@ -19,7 +19,7 @@ module traffic_light(input clk,input reset_n,input color,output action);
         default:next_State=color;
         endcase 
     end
-    always@begin(state)begin
+    always@(state)begin
         action=3'b011;
         case(state)
         red:action=3'b011;
