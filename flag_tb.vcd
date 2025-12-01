@@ -1,0 +1,203 @@
+$date
+	Mon Dec 01 14:40:06 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module flag_tb $end
+$var wire 1 ! Win $end
+$var wire 1 " Loss $end
+$var reg 1 # clk $end
+$var reg 1 $ reset_n $end
+$var reg 1 % risk $end
+$var reg 1 & secure $end
+$scope module dut $end
+$var wire 1 # clk $end
+$var wire 1 $ reset_n $end
+$var wire 1 % risk $end
+$var wire 1 & secure $end
+$var wire 1 ! Win $end
+$var wire 1 " Loss $end
+$var parameter 3 ' S0 $end
+$var parameter 3 ( S1 $end
+$var parameter 3 ) S2 $end
+$var parameter 3 * S3 $end
+$var parameter 3 + S4 $end
+$var reg 3 , next_state [2:0] $end
+$var reg 3 - state [2:0] $end
+$upscope $end
+$scope task move $end
+$var reg 1 . r $end
+$var reg 1 / s $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b110 +
+b10 *
+b11 )
+b1 (
+b0 '
+$end
+#0
+$dumpvars
+x/
+x.
+b0 -
+b0 ,
+0&
+0%
+0$
+0#
+0"
+0!
+$end
+#5000
+1$
+1#
+#10000
+0#
+#15000
+0/
+0.
+1#
+#20000
+0#
+#25000
+1#
+#30000
+1!
+b1 ,
+1&
+1/
+0#
+#35000
+0!
+b1 -
+1#
+#40000
+0#
+#45000
+1#
+#50000
+b11 ,
+0&
+1%
+0/
+1.
+0#
+#55000
+b10 ,
+b11 -
+1#
+#60000
+1&
+0%
+1/
+0.
+0#
+#65000
+b0 ,
+b10 -
+1#
+#70000
+0#
+#75000
+1!
+b1 ,
+b0 -
+1#
+#80000
+0!
+b110 ,
+0&
+1%
+0/
+1.
+0#
+#85000
+1"
+b110 -
+1#
+#90000
+b0 ,
+0%
+0.
+0#
+#95000
+0"
+b0 -
+1#
+#100000
+1!
+b1 ,
+1&
+1/
+0#
+#105000
+0!
+b1 -
+1#
+#110000
+b110 ,
+0&
+0/
+0#
+#115000
+b0 ,
+1"
+b110 -
+1#
+#120000
+0#
+#125000
+0"
+b0 -
+1#
+#130000
+1!
+b1 ,
+1&
+1/
+0#
+#135000
+0!
+b1 -
+1#
+#140000
+b11 ,
+0&
+1%
+0/
+1.
+0#
+#145000
+b10 ,
+b11 -
+1#
+#150000
+0#
+#155000
+b110 ,
+b10 -
+1#
+#160000
+0#
+#165000
+1"
+b110 -
+1#
+#170000
+0#
+#175000
+1#
+#180000
+0#
+#185000
+1#
+#190000
+0#
