@@ -45,6 +45,6 @@ always@(*) begin
     default: next_state=S0;
     endcase
 end
-assign Win=(state==S0&&secure==1'b1)?1'b1:1'b0;
+assign Win=(state==S0&&secure==1'b1)?1'b1:1'b0; // Winning condition: reaching S0 with secure input> putting state==S3 would make me win one step before, so hence state ==S0
 assign Loss=(state==S4)?1'b1:1'b0;
 endmodule
